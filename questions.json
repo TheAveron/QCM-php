@@ -1,0 +1,38 @@
+{
+	"Question 1":{
+		"name":"proviseur",
+		"question":"Qui est le proviseur du lycée Victor Duruy ?",
+		"reponses":{
+			"1":{"Philippe Tournier":true},
+			"2":{"Pape Ndiaye":false},
+			"3":{"Jérome Courtois":false}
+		}
+	},
+	"Question 2":{
+		"name":"superficie",
+		"question":"Quelle est la superficie du parc ?",
+		"reponses":{
+			"1":{"2 hectares":false},
+			"2":{"3 hectares":true},
+			"3":{"5 hectares":false}
+		}
+	},
+	"Question 3":{
+		"name":"Profession",
+		"question":"Victor Duruy était",
+		"reponses":{
+			"1":{"Président de la république":false},
+			"2":{"Ministre de l'instruction publique":true},
+			"3":{"un cousin de Louis Napoléon Bonaparte":false}
+		}		
+	},
+	"Question 4":{
+		"name":"Creation",
+		"question":"En quelle année à été crée la NSI ?",
+		"reponses":{
+			"1":{"2000":false},
+			"2":{"2019":true},
+			"3":{"2018":false}
+		}		
+	}
+}
