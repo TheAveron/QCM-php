@@ -16,24 +16,18 @@
 
 			$compteur=1;
 			echo '<form action="answers/index.php" method="post">';
-
 			foreach($questions as $question)
 			{
 
-				echo '<div class="question_box">';
-				echo '<h3>'.$question['question'].'</h3>';
+				echo '<div class="question_box"><h3>'.$question['question'].'</h3>';
 				for ($answers = 0; $answers<=2; $answers++)
 				{
 					echo '<label for="question '.$compteur.'"><input class="checkbox" type="checkbox" name="'.$question['name'].'[]" id="'.($answers+1).'" value="'.array_keys($question['reponses'][$answers])[0].'"> <div class="text_ans">'.array_keys($question['reponses'][$answers])[0].'</div></label><br>';
 				}
-				
-				
-				echo 'submit'.$compteur;
-				$compteur+=1;
 				echo '</div>';
+				$compteur+=1;
 			}
-			echo '<input class="submit" type="submit" value="Valider">';
-			echo '</form>';
+			echo '<input class="submit" type="submit" value="Valider"></form>';
 		?>
 
 		<a href="answers">Réponses</a>

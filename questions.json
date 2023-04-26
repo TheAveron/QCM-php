@@ -21,14 +21,14 @@
 		"name":"Profession",
 		"question":"Victor Duruy était",
 		"reponses":[
-			{"Président de la république":false},
+			{"Président de la République":false},
 			{"un cousin de Louis Napoléon Bonaparte":false},
-			{"Ministre de l'instruction publique":true}
+			{"Ministre de l'Instruction publique":true}
 		]		
 	},
 	"Question 4":{
 		"name":"Creation",
-		"question":"En quelle année à été crée la NSI ?",
+		"question":"En quelle année a été crée la NSI ?",
 		"reponses":[
 			{"2019":true},
 			{"2000":false},

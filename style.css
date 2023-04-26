@@ -27,8 +27,7 @@ h1,h2 {
 }
 
 h2 {
-	margin-top: 5vh;
-	
+	margin-top: 2vh;
 }
 
 h3 {
@@ -94,7 +93,7 @@ label {
 
 @media screen and (min-width: 900px) {
 	h1,h2{
-		font-size: calc(3vw+0.1em);
+		font-size: calc(3vw + 0.1em);
 	}
 
 	h3 {

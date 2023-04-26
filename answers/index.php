@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<h1>Réponses du QCM<h1>
+		<h1>Réponses du QCM</h1>
 		<h2>Créateur : Victor A.</h2>
 
 		<?php
@@ -15,7 +15,6 @@
 			$questions = json_decode($questions, true);
 
 			$points=0;
-
 			foreach ($questions as $question) {
 				foreach ($question['reponses'] as $answer)
 				{
