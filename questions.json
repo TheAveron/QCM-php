@@ -1,5 +1,5 @@
 {
-	"Question 1":{
+	"Question_1":{
 		"name":"proviseur",
 		"question":"Qui est le proviseur du lycée Victor Duruy ?",
 		"reponses":{
@@ -8,7 +8,7 @@
 			"Jérome Courtois":false
 		}
 	},
-	"Question 2":{
+	"Question_2":{
 		"name":"superficie",
 		"question":"Quelle est la superficie du parc ?",
 		"reponses":{
@@ -17,16 +17,16 @@
 			"5 hectares":false
 		}
 	},
-	"Question 3":{
+	"Question_3":{
 		"name":"Profession",
 		"question":"Victor Duruy était",
 		"reponses":{
 			"Président de la République":false,
 			"un cousin de Louis Napoléon Bonaparte":false,
-			"Ministre de l'Instruction publique":true
+			"Ministre de l Instruction publique":true
 		}
 	},
-	"Question 4":{
+	"Question_4":{
 		"name":"Creation",
 		"question":"En quelle année a été crée la NSI ?",
 		"reponses":{
@@ -35,7 +35,7 @@
 			"2018":false
 		}
 	},
-	"Question 5":{
+	"Question_5":{
 		"name":"Langage",
 		"question":"Lequel de ces langages n'est pas étudié en NSI (1ere et Te) ?",
 		"reponses":{
@@ -44,16 +44,16 @@
 			"PHP":false
 		}
 	},
-	"Question 6":{
+	"Question_6":{
 		"name":"Fondation",
 		"question":"Quelle est l'année de fondation du Lycée Victor Duruy ?",
 		"reponses":{
-			"1812":false,
+			"1846":false,
 			"1912":true,
 			"1946":false
 		}
 	},
-	"Question 7":{
+	"Question_7":{
 		"name":"Eleves",
 		"question":"Combien y a-t-il d'élèves au lycée Victor Duruy ?",
 		"reponses":{
@@ -62,7 +62,7 @@
 			"1200":true
 		}
 	},
-	"Question 8":{
+	"Question_8":{
 		"name":"Javascript",
 		"question":"En JavaScript, quel est le résultat de l'opération `{}+{}` ?",
 		"reponses":{
@@ -71,7 +71,7 @@
 			"NaN":false
 		}
 	},
-	"Question 9":{
+	"Question_9":{
 		"name":"Additions",
 		"question":"En Python, quel est le résultat de cette condition `0.1*3 == 0.3` ?",
 		"reponses":{
@@ -80,7 +80,7 @@
 			"False":true
 		}
 	},
-	"Question 10":{
+	"Question_10":{
 		"name":"langages",
 		"question":"Combien de langages de programmation sont étudiés en première ?",
 		"reponses":{

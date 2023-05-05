@@ -112,7 +112,7 @@ label {
 	cursor: pointer;
 }
 
-.text_ans{
+span {
 	margin-left: 15px;
 	font-size: calc(2.5vw);
 }
@@ -168,7 +168,7 @@ footer p {
 		font-size: calc(2vw + 0.1em);
 	}
 
-	.text_ans {
+	span {
 		font-size: calc(1.8vw);
 	}
 
