@@ -1,8 +1,8 @@
 <!doctype html>
-<html>
+<html lang="fr">
 	<head>
 		<title>QCM Victor Duruy et NSI</title>
-		<meta charset="utf-8"/>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link href='../style.css' rel='stylesheet'>
@@ -17,7 +17,7 @@
 	?>
 	<body class="<?php echo $color;?>" id="body">
 		<header>
-			<input type="" id="color-button" value="" onclick="color();">
+			<input type='button' id="color-button" value=" " onclick="color();">
 		</header>
 		<main>
 			<h1>Réponses du QCM</h1>
@@ -68,9 +68,9 @@
 					echo "<div class='resume'><p>Nombre de bonnes réponses : $correct_ans</p><p>Votre score : $points</p></div>";
 					echo $final_text;
 				?>
-				<a class="buttons" href="/Projet_PHP/QCM-php/?theme=<?php echo $color;?>">Retour</a>
+				<a class="buttons" href="../?theme=<?php echo $color;?>">Retour</a>
 			</div>
 		</main>
 		<footer><p>© Copyright V.A - 2023 - All Right reserved</p></footer>
-	<body>
+  </body>
 </html>
