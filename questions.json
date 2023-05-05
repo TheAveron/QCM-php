@@ -2,82 +2,91 @@
 	"Question 1":{
 		"name":"proviseur",
 		"question":"Qui est le proviseur du lycée Victor Duruy ?",
-		"reponses":[
-			{"Philippe Tournier":true},
-			{"Pape Ndiaye":false},
-			{"Jérome Courtois":false}
-		]
+		"reponses":{
+			"Philippe Tournier":true,
+			"Pape Ndiaye":false,
+			"Jérome Courtois":false
+		}
 	},
 	"Question 2":{
 		"name":"superficie",
 		"question":"Quelle est la superficie du parc ?",
-		"reponses":[
-			{"2 hectares":false},
-			{"3 hectares":true},
-			{"5 hectares":false}
-		]
+		"reponses":{
+			"2 hectares":false,
+			"3 hectares":true,
+			"5 hectares":false
+		}
 	},
 	"Question 3":{
 		"name":"Profession",
 		"question":"Victor Duruy était",
-		"reponses":[
-			{"Président de la République":false},
-			{"un cousin de Louis Napoléon Bonaparte":false},
-			{"Ministre de l'Instruction publique":true}
-		]		
+		"reponses":{
+			"Président de la République":false,
+			"un cousin de Louis Napoléon Bonaparte":false,
+			"Ministre de l'Instruction publique":true
+		}
 	},
 	"Question 4":{
 		"name":"Creation",
 		"question":"En quelle année a été crée la NSI ?",
-		"reponses":[
-			{"2019":true},
-			{"2000":false},
-			{"2018":false}
-		]		
+		"reponses":{
+			"2019":true,
+			"2000":false,
+			"2018":false
+		}
 	},
 	"Question 5":{
 		"name":"Langage",
 		"question":"Lequel de ces langages n'est pas étudié en NSI (1ere et Te) ?",
-		"reponses":[
-			{"Java":true},
-			{"SQL":false},
-			{"PHP":false}
-		]		
+		"reponses":{
+			"Java":true,
+			"SQL":false,
+			"PHP":false
+		}
 	},
 	"Question 6":{
 		"name":"Fondation",
 		"question":"Quelle est l'année de fondation du Lycée Victor Duruy ?",
-		"reponses":[
-			{"1812":false},
-			{"1912":true},
-			{"1946":false}
-		]		
+		"reponses":{
+			"1812":false,
+			"1912":true,
+			"1946":false
+		}
 	},
 	"Question 7":{
 		"name":"Eleves",
 		"question":"Combien y a-t-il d'élèves au lycée Victor Duruy ?",
-		"reponses":[
-			{"700":false},
-			{"2000":false},
-			{"1200":true}
-		]		
+		"reponses":{
+			"700":false,
+			"2000":false,
+			"1200":true
+		}
 	},
 	"Question 8":{
 		"name":"Javascript",
-		"question":"En JavaScript, quel est le résultat de l'opération `[]+[]` ?",
-		"reponses":[
-			{"une liste vide":false},
-			{"un string vide":true},
-			{"NaN":false}
-		]		
+		"question":"En JavaScript, quel est le résultat de l'opération `{}+{}` ?",
+		"reponses":{
+			"une liste vide":false,
+			"un string vide":true,
+			"NaN":false
+		}
 	},
 	"Question 9":{
 		"name":"Additions",
 		"question":"En Python, quel est le résultat de cette condition `0.1*3 == 0.3` ?",
-		"reponses":[
-			{"True":false},
-			{"Syntax Error":false},
-			{"False":true}
-		]		
+		"reponses":{
+			"True":false,
+			"Syntax Error":false,
+			"False":true
+		}
+	},
+	"Question 10":{
+		"name":"langages",
+		"question":"Combien de langages de programmation sont étudiés en première ?",
+		"reponses":{
+			"6":true,
+			"8":false,
+			"4":false
+		}
 	}
 }
