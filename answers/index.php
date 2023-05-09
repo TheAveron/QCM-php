@@ -5,6 +5,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" href="../formulaire.ico">
+
 		<link href='../style.css' rel='stylesheet'>
 		<script src="../color_themes.js"></script>
 	</head>
@@ -17,12 +19,12 @@
 	?>
 	<body class="<?php echo $color;?>" id="body">
 		<header>
-			<input type='button' id="color-button" value=" " onclick="color();">
 		</header>
 		<main>
 			<h1>Réponses du QCM</h1>
 			<h2>Créateur : Victor A.</h2>
 
+      <input type='button' id="color-button" value=" " onclick="color();">
 			<div class=answers>
 				<?php
 					$questions = file_get_contents('../questions.json');
@@ -68,7 +70,7 @@
 					echo "<div class='resume'><p>Nombre de bonnes réponses : $correct_ans</p><p>Votre score : $points</p></div>";
 					echo $final_text;
 				?>
-				<a class="buttons" href="../?theme=<?php echo $color;?>">Retour</a>
+        <a class="buttons" href="../?theme=<?php echo $color;?>">Retour</a>
 			</div>
 		</main>
 		<footer><p>© Copyright V.A - 2023 - All Right reserved</p></footer>

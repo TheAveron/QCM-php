@@ -3,9 +3,12 @@
 	<head>
 		<title>QCM Victor Duruy et NSI</title>
 		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="formulaire.ico">
 		<link href='style.css' rel='stylesheet'>
 		<script src="color_themes.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 	</head>
 	<?php
 		$color="light_mode";
@@ -16,13 +19,12 @@
 	?>
 	<body class="<?php echo $color;?>" id="body">
 		<header>
-			<input type='button' id="color-button" value=" " onclick="color();">
 		</header>
 		<main>
 			<h1>QCM sur Victor Duruy et la NSI</h1>
 			<h2>Créateur : Victor A.</h2>
 
-			
+			<input type='button' id="color-button" value=" " onclick="color();">
 			<form action="answers/?theme=<?php echo $color;?>" method="post">
 				<?php
 					$questions = file_get_contents('questions.json');

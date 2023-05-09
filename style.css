@@ -51,11 +51,10 @@ body {
 	background:linear-gradient(to bottom, var(--green10), var(--green9),var(--green8), var(--green7), var(--green6), var(--green5), var(--green4), var(--green3), var(--green2), var(--green1));	
 }
 
-header {
-	position: absolute;
-}
-
 #color-button {
+  position: absolute;
+  left:0;
+  top:0;
 	margin: 1vh;
 	width: 30px;
 	height: 30px;
